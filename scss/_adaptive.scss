@@ -1,0 +1,255 @@
+@media (max-width: 1400px) {
+    .header__inner-img {
+        margin-left: 15px;
+        padding-right: 20px;
+    }
+    .header__info {
+        margin-right: 15px;
+    }
+    .header__title {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+    .about__left {
+        padding-left: 15px;
+    }
+    .about__right {
+        padding-right: 15px;
+    }
+    .about__title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__nav {
+        justify-content: center;
+    }
+    .header__left-menu {
+        margin-left: 15px;
+    }
+    .header__right-menu {
+        margin-right: 65px;
+    }
+    .header__link {
+        margin-right: 20px;
+    }
+    .header__logo {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__inner {
+        flex-wrap: wrap;
+    }
+    .header__inner-img {
+        display: none;
+    }
+    .header__info {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        padding-top: 70px;
+        flex-wrap: wrap;
+    }
+    .about__left,
+    .about__right {
+        flex: 0 1 100%;
+    }
+    .about__left {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    .about__right {
+        padding-left: 15px;
+    }
+    .about__wrap-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__title {
+        text-align: center;
+    }
+
+    .gallery__main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery__img {
+
+    }
+
+    .footer__menu {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        transform: translateX(120%);
+        background: rgba(0, 0, 0, .8);
+        transition: .5s;
+        padding: 20px 0 0 15px;
+    }
+    .footer__menu.active {
+        transform: translateX(0);
+    }
+    .footer__menu-link {
+        display: block;
+        margin-right: 0;
+    }
+    .footer__burger {
+        display: flex;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .header__overlay {
+        padding-bottom: 50px;
+    }
+    .header__nav {
+        margin-bottom: 50px;
+    }
+    .header__left-menu,
+    .header__right-menu {
+        // display: none;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        margin: 0 0 0 0px;
+        background: rgba(0, 0, 0, 0.7);
+        padding-left: 20px;
+        transform: translateX(120%);
+        transition: .5s;
+    }
+    .header__left-menu {
+        top: 0px;
+        padding-top: 35px;
+    }
+    .header__right-menu {
+        top: 135px;
+        padding-bottom: 20px;
+    }
+    .header__left-menu .header__link,
+    .header__right-menu .header__link {
+        display: block;
+        line-height: 1.6;
+    }
+
+    .header__left-menu.active,
+    .header__right-menu.active {
+        // display: block;
+        transform: translateX(0%);
+        // transition: .8s;
+    }
+    .header__burger {
+        display: flex;
+    }
+
+    .quality {
+        margin-bottom: 80px;
+    }
+    .quality__img {
+        opacity: 0.5;
+    }
+    .quality__info {
+        left: 20px;
+        top: 15%;
+    }
+
+    .gallery {
+        margin-bottom: 80px;
+    }
+    .gallery__title {
+        margin-bottom: 40px;
+    }
+
+    .enjoy {
+        margin-bottom: 80px;
+        padding: 40px 0;
+    }
+    .enjoy__content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu {
+        margin-bottom: 80px;
+    }
+    .menu__content {
+        grid-template-columns: 1fr;
+    }
+    .menu__card {
+        max-width: 407px;
+        margin: auto;
+    }
+    .menu__title {
+        margin-bottom: 40px;
+    }
+
+    .meal {
+        padding: 40px 0;
+    }
+    .meal__info {
+        margin-left: 0;
+        margin: 0 auto;
+        max-width: 437px;
+    }
+    .meal__text {
+        font-size: 20px;
+    }
+    .meal__img-wrap {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__title {
+        font-size: 35px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+
+    
+    .quality__info {
+        top: 0;
+    }
+    .quality__title {
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+    .quality__text {
+        font-size: 25px;
+    }
+
+    .gallery__main {
+        grid-template-columns: 100%;
+    }
+
+    .title-50 {
+        font-size: 40px;
+    }
+    .enjoy__text {
+        font-size: 20px;
+    }
+
+    .meal__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
